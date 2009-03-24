@@ -1,0 +1,174 @@
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.015000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Create (0.000000)[0m   [0;1mINSERT INTO `users` (`updated_at`, `created_at`) VALUES('2009-03-22 07:15:38', '2009-03-22 07:15:38')[0m
+  [4;35;1mProject Columns (0.000000)[0m   [0mSHOW FIELDS FROM `projects`[0m
+  [4;36;1mSQL (0.062000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Create (0.000000)[0m   [0;1mINSERT INTO `users` (`updated_at`, `created_at`) VALUES('2009-03-22 07:18:13', '2009-03-22 07:18:13')[0m
+  [4;35;1mProject Columns (0.000000)[0m   [0mSHOW FIELDS FROM `projects`[0m
+  [4;36;1mSQL (0.062000)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Create (0.000000)[0m   [0;1mINSERT INTO `users` (`updated_at`, `created_at`) VALUES('2009-03-22 07:19:53', '2009-03-22 07:19:53')[0m
+  [4;35;1mProject Columns (0.000000)[0m   [0mSHOW FIELDS FROM `projects`[0m
+  [4;36;1mProject Create (0.000000)[0m   [0;1mINSERT INTO `projects` (`updated_at`, `created_at`) VALUES('2009-03-22 07:19:53', '2009-03-22 07:19:53')[0m
+  [4;35;1mSQL (0.062000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Create (0.000000)[0m   [0;1mINSERT INTO `users` (`updated_at`, `created_at`) VALUES('2009-03-22 07:20:58', '2009-03-22 07:20:58')[0m
+  [4;35;1mProject Columns (0.000000)[0m   [0mSHOW FIELDS FROM `projects`[0m
+  [4;36;1mProject Create (0.000000)[0m   [0;1mINSERT INTO `projects` (`updated_at`, `created_at`) VALUES('2009-03-22 07:20:58', '2009-03-22 07:20:58')[0m
+  [4;35;1mInvitation Columns (0.000000)[0m   [0mSHOW FIELDS FROM `invitations`[0m
+  [4;36;1mInvitation Create (0.000000)[0m   [0;1mINSERT INTO `invitations` (`participant_id`, `updated_at`, `user_id`, `participant_type`, `created_at`) VALUES(2, '2009-03-22 07:20:58', 4, 'Project', '2009-03-22 07:20:58')[0m
+  [4;35;1mSQL (0.047000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Create (0.000000)[0m   [0;1mINSERT INTO `users` (`updated_at`, `created_at`) VALUES('2009-03-22 07:22:18', '2009-03-22 07:22:18')[0m
+  [4;35;1mProject Columns (0.016000)[0m   [0mSHOW FIELDS FROM `projects`[0m
+  [4;36;1mProject Create (0.000000)[0m   [0;1mINSERT INTO `projects` (`updated_at`, `created_at`) VALUES('2009-03-22 07:22:18', '2009-03-22 07:22:18')[0m
+  [4;35;1mInvitation Columns (0.000000)[0m   [0mSHOW FIELDS FROM `invitations`[0m
+  [4;36;1mInvitation Create (0.000000)[0m   [0;1mINSERT INTO `invitations` (`participant_id`, `updated_at`, `user_id`, `participant_type`, `created_at`) VALUES(3, '2009-03-22 07:22:18', 5, 'Project', '2009-03-22 07:22:18')[0m
+  [4;35;1mSQL (0.063000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Create (0.000000)[0m   [0;1mINSERT INTO `users` (`updated_at`, `created_at`) VALUES('2009-03-22 07:36:13', '2009-03-22 07:36:13')[0m
+  [4;35;1mProject Columns (0.000000)[0m   [0mSHOW FIELDS FROM `projects`[0m
+  [4;36;1mProject Create (0.000000)[0m   [0;1mINSERT INTO `projects` (`updated_at`, `created_at`) VALUES('2009-03-22 07:36:13', '2009-03-22 07:36:13')[0m
+  [4;35;1mGroup Columns (0.000000)[0m   [0mSHOW FIELDS FROM `groups`[0m
+  [4;36;1mGroup Create (0.000000)[0m   [0;1mINSERT INTO `groups` (`updated_at`, `created_at`) VALUES('2009-03-22 07:36:13', '2009-03-22 07:36:13')[0m
+  [4;35;1mEvent Columns (0.000000)[0m   [0mSHOW FIELDS FROM `events`[0m
+  [4;36;1mEvent Create (0.000000)[0m   [0;1mINSERT INTO `events` (`updated_at`, `created_at`) VALUES('2009-03-22 07:36:13', '2009-03-22 07:36:13')[0m
+  [4;35;1mInvitation Columns (0.016000)[0m   [0mSHOW FIELDS FROM `invitations`[0m
+  [4;36;1mInvitation Create (0.000000)[0m   [0;1mINSERT INTO `invitations` (`participant_id`, `updated_at`, `user_id`, `participant_type`, `created_at`) VALUES(4, '2009-03-22 07:36:13', 6, 'Project', '2009-03-22 07:36:13')[0m
+  [4;35;1mInvitation Create (0.000000)[0m   [0mINSERT INTO `invitations` (`participant_id`, `updated_at`, `user_id`, `participant_type`, `created_at`) VALUES(1, '2009-03-22 07:36:13', 6, 'Group', '2009-03-22 07:36:13')[0m
+  [4;36;1mInvitation Create (0.000000)[0m   [0;1mINSERT INTO `invitations` (`participant_id`, `updated_at`, `user_id`, `participant_type`, `created_at`) VALUES(1, '2009-03-22 07:36:13', 6, 'Event', '2009-03-22 07:36:13')[0m
+  [4;35;1mSQL (0.062000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Create (0.000000)[0m   [0;1mINSERT INTO `users` (`updated_at`, `created_at`) VALUES('2009-03-23 16:51:39', '2009-03-23 16:51:39')[0m
+  [4;35;1mProject Columns (0.000000)[0m   [0mSHOW FIELDS FROM `projects`[0m
+  [4;36;1mProject Create (0.000000)[0m   [0;1mINSERT INTO `projects` (`updated_at`, `created_at`) VALUES('2009-03-23 16:51:39', '2009-03-23 16:51:39')[0m
+  [4;35;1mGroup Columns (0.000000)[0m   [0mSHOW FIELDS FROM `groups`[0m
+  [4;36;1mGroup Create (0.000000)[0m   [0;1mINSERT INTO `groups` (`updated_at`, `created_at`) VALUES('2009-03-23 16:51:39', '2009-03-23 16:51:39')[0m
+  [4;35;1mEvent Columns (0.015000)[0m   [0mSHOW FIELDS FROM `events`[0m
+  [4;36;1mEvent Create (0.000000)[0m   [0;1mINSERT INTO `events` (`updated_at`, `created_at`) VALUES('2009-03-23 16:51:39', '2009-03-23 16:51:39')[0m
+  [4;35;1mInvitation Columns (0.000000)[0m   [0mSHOW FIELDS FROM `invitations`[0m
+  [4;36;1mInvitation Create (0.000000)[0m   [0;1mINSERT INTO `invitations` (`participant_id`, `updated_at`, `user_id`, `participant_type`, `created_at`) VALUES(5, '2009-03-23 16:51:39', 7, 'Project', '2009-03-23 16:51:39')[0m
+  [4;35;1mInvitation Create (0.000000)[0m   [0mINSERT INTO `invitations` (`participant_id`, `updated_at`, `user_id`, `participant_type`, `created_at`) VALUES(2, '2009-03-23 16:51:39', 7, 'Group', '2009-03-23 16:51:39')[0m
+  [4;36;1mInvitation Create (0.000000)[0m   [0;1mINSERT INTO `invitations` (`participant_id`, `updated_at`, `user_id`, `participant_type`, `created_at`) VALUES(2, '2009-03-23 16:51:39', 7, 'Event', '2009-03-23 16:51:39')[0m
+  [4;35;1mSQL (0.047000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Create (0.000000)[0m   [0mINSERT INTO `users` (`updated_at`, `created_at`) VALUES('2009-03-23 16:51:39', '2009-03-23 16:51:39')[0m
+  [4;36;1mUser Create (0.000000)[0m   [0;1mINSERT INTO `users` (`updated_at`, `created_at`) VALUES('2009-03-23 16:51:39', '2009-03-23 16:51:39')[0m
+  [4;35;1mProject Create (0.000000)[0m   [0mINSERT INTO `projects` (`updated_at`, `created_at`) VALUES('2009-03-23 16:51:39', '2009-03-23 16:51:39')[0m
+  [4;36;1mInvitation Create (0.000000)[0m   [0;1mINSERT INTO `invitations` (`participant_id`, `updated_at`, `user_id`, `participant_type`, `created_at`) VALUES(6, '2009-03-23 16:51:39', 8, 'Project', '2009-03-23 16:51:39')[0m
+  [4;35;1mSQL (0.046000)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (0.016000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Create (0.000000)[0m   [0;1mINSERT INTO `users` (`updated_at`, `created_at`) VALUES('2009-03-23 16:53:16', '2009-03-23 16:53:16')[0m
+  [4;35;1mUser Create (0.000000)[0m   [0mINSERT INTO `users` (`updated_at`, `created_at`) VALUES('2009-03-23 16:53:16', '2009-03-23 16:53:16')[0m
+  [4;36;1mProject Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Create (0.000000)[0m   [0mINSERT INTO `projects` (`updated_at`, `created_at`) VALUES('2009-03-23 16:53:16', '2009-03-23 16:53:16')[0m
+  [4;36;1mGroup Columns (0.015000)[0m   [0;1mSHOW FIELDS FROM `groups`[0m
+  [4;35;1mGroup Create (0.000000)[0m   [0mINSERT INTO `groups` (`updated_at`, `created_at`) VALUES('2009-03-23 16:53:16', '2009-03-23 16:53:16')[0m
+  [4;36;1mEvent Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `events`[0m
+  [4;35;1mEvent Create (0.000000)[0m   [0mINSERT INTO `events` (`updated_at`, `created_at`) VALUES('2009-03-23 16:53:16', '2009-03-23 16:53:16')[0m
+  [4;36;1mInvitation Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `invitations`[0m
+  [4;35;1mInvitation Create (0.000000)[0m   [0mINSERT INTO `invitations` (`participant_id`, `updated_at`, `user_id`, `participant_type`, `created_at`) VALUES(7, '2009-03-23 16:53:16', 10, 'Project', '2009-03-23 16:53:16')[0m
+  [4;36;1mInvitation Create (0.000000)[0m   [0;1mINSERT INTO `invitations` (`participant_id`, `updated_at`, `user_id`, `participant_type`, `created_at`) VALUES(3, '2009-03-23 16:53:16', 10, 'Group', '2009-03-23 16:53:16')[0m
+  [4;35;1mInvitation Create (0.000000)[0m   [0mINSERT INTO `invitations` (`participant_id`, `updated_at`, `user_id`, `participant_type`, `created_at`) VALUES(3, '2009-03-23 16:53:16', 10, 'Event', '2009-03-23 16:53:16')[0m
+  [4;36;1mInvitation Load (0.000000)[0m   [0;1mSELECT * FROM `invitations` WHERE (`invitations`.user_id = 10) [0m
+  [4;35;1mInvitation Load (0.000000)[0m   [0mMysql::Error: Unknown column 'invitations.host_id' in 'where clause': SELECT * FROM `invitations` WHERE (`invitations`.host_id = 11) [0m
+  [4;36;1mSQL (0.047000)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Create (0.000000)[0m   [0;1mINSERT INTO `users` (`updated_at`, `created_at`) VALUES('2009-03-23 16:56:25', '2009-03-23 16:56:25')[0m
+  [4;35;1mUser Create (0.000000)[0m   [0mINSERT INTO `users` (`updated_at`, `created_at`) VALUES('2009-03-23 16:56:25', '2009-03-23 16:56:25')[0m
+  [4;36;1mProject Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Create (0.000000)[0m   [0mINSERT INTO `projects` (`updated_at`, `created_at`) VALUES('2009-03-23 16:56:25', '2009-03-23 16:56:25')[0m
+  [4;36;1mGroup Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `groups`[0m
+  [4;35;1mGroup Create (0.000000)[0m   [0mINSERT INTO `groups` (`updated_at`, `created_at`) VALUES('2009-03-23 16:56:25', '2009-03-23 16:56:25')[0m
+  [4;36;1mEvent Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `events`[0m
+  [4;35;1mEvent Create (0.000000)[0m   [0mINSERT INTO `events` (`updated_at`, `created_at`) VALUES('2009-03-23 16:56:25', '2009-03-23 16:56:25')[0m
+  [4;36;1mInvitation Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `invitations`[0m
+  [4;35;1mInvitation Create (0.000000)[0m   [0mINSERT INTO `invitations` (`participant_id`, `updated_at`, `host_id`, `note`, `user_id`, `participant_type`, `created_at`) VALUES(1, '2009-03-23 16:56:25', 2, NULL, 1, 'Project', '2009-03-23 16:56:25')[0m
+  [4;36;1mInvitation Create (0.000000)[0m   [0;1mINSERT INTO `invitations` (`participant_id`, `updated_at`, `host_id`, `note`, `user_id`, `participant_type`, `created_at`) VALUES(1, '2009-03-23 16:56:25', 2, NULL, 1, 'Group', '2009-03-23 16:56:25')[0m
+  [4;35;1mInvitation Create (0.000000)[0m   [0mINSERT INTO `invitations` (`participant_id`, `updated_at`, `host_id`, `note`, `user_id`, `participant_type`, `created_at`) VALUES(1, '2009-03-23 16:56:25', 2, NULL, 1, 'Event', '2009-03-23 16:56:25')[0m
+  [4;36;1mInvitation Load (0.000000)[0m   [0;1mSELECT * FROM `invitations` WHERE (`invitations`.user_id = 1) [0m
+  [4;35;1mInvitation Load (0.000000)[0m   [0mSELECT * FROM `invitations` WHERE (`invitations`.host_id = 2) [0m
+  [4;36;1mSQL (0.063000)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Create (0.000000)[0m   [0;1mINSERT INTO `users` (`updated_at`, `created_at`) VALUES('2009-03-23 17:05:02', '2009-03-23 17:05:02')[0m
+  [4;35;1mUser Create (0.000000)[0m   [0mINSERT INTO `users` (`updated_at`, `created_at`) VALUES('2009-03-23 17:05:02', '2009-03-23 17:05:02')[0m
+  [4;36;1mProject Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Create (0.000000)[0m   [0mINSERT INTO `projects` (`updated_at`, `created_at`) VALUES('2009-03-23 17:05:02', '2009-03-23 17:05:02')[0m
+  [4;36;1mGroup Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `groups`[0m
+  [4;35;1mGroup Create (0.015000)[0m   [0mINSERT INTO `groups` (`updated_at`, `created_at`) VALUES('2009-03-23 17:05:02', '2009-03-23 17:05:02')[0m
+  [4;36;1mEvent Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `events`[0m
+  [4;35;1mEvent Create (0.000000)[0m   [0mINSERT INTO `events` (`updated_at`, `created_at`) VALUES('2009-03-23 17:05:02', '2009-03-23 17:05:02')[0m
+  [4;36;1mInvitation Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `invitations`[0m
+  [4;35;1mInvitation Create (0.000000)[0m   [0mINSERT INTO `invitations` (`participant_id`, `updated_at`, `host_id`, `note`, `user_id`, `participant_type`, `created_at`) VALUES(2, '2009-03-23 17:05:02', 4, NULL, 3, 'Project', '2009-03-23 17:05:02')[0m
+  [4;36;1mInvitation Create (0.000000)[0m   [0;1mINSERT INTO `invitations` (`participant_id`, `updated_at`, `host_id`, `note`, `user_id`, `participant_type`, `created_at`) VALUES(2, '2009-03-23 17:05:02', 4, NULL, 3, 'Group', '2009-03-23 17:05:02')[0m
+  [4;35;1mInvitation Create (0.000000)[0m   [0mINSERT INTO `invitations` (`participant_id`, `updated_at`, `host_id`, `note`, `user_id`, `participant_type`, `created_at`) VALUES(2, '2009-03-23 17:05:02', 4, NULL, 3, 'Event', '2009-03-23 17:05:02')[0m
+  [4;36;1mInvitation Load (0.000000)[0m   [0;1mSELECT * FROM `invitations` WHERE (`invitations`.user_id = 3) [0m
+  [4;35;1mInvitation Load (0.000000)[0m   [0mSELECT * FROM `invitations` WHERE (`invitations`.host_id = 4) [0m
+  [4;36;1mSQL (0.063000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mUser Create (0.000000)[0m   [0;1mINSERT INTO `users` (`updated_at`, `created_at`) VALUES('2009-03-23 17:05:02', '2009-03-23 17:05:02')[0m
+  [4;35;1mUser Create (0.000000)[0m   [0mINSERT INTO `users` (`updated_at`, `created_at`) VALUES('2009-03-23 17:05:02', '2009-03-23 17:05:02')[0m
+  [4;36;1mProject Create (0.000000)[0m   [0;1mINSERT INTO `projects` (`updated_at`, `created_at`) VALUES('2009-03-23 17:05:02', '2009-03-23 17:05:02')[0m
+  [4;35;1mInvitation Create (0.000000)[0m   [0mINSERT INTO `invitations` (`participant_id`, `updated_at`, `host_id`, `note`, `user_id`, `participant_type`, `created_at`) VALUES(3, '2009-03-23 17:05:02', 6, 'This is a project invitation', 5, 'Project', '2009-03-23 17:05:02')[0m
+  [4;36;1mSQL (0.047000)[0m   [0;1mROLLBACK[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Create (0.000000)[0m   [0;1mINSERT INTO `users` (`updated_at`, `created_at`) VALUES('2009-03-23 17:06:17', '2009-03-23 17:06:17')[0m
+  [4;35;1mUser Create (0.000000)[0m   [0mINSERT INTO `users` (`updated_at`, `created_at`) VALUES('2009-03-23 17:06:17', '2009-03-23 17:06:17')[0m
+  [4;36;1mProject Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `projects`[0m
+  [4;35;1mProject Create (0.000000)[0m   [0mINSERT INTO `projects` (`updated_at`, `created_at`) VALUES('2009-03-23 17:06:17', '2009-03-23 17:06:17')[0m
+  [4;36;1mGroup Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `groups`[0m
+  [4;35;1mGroup Create (0.000000)[0m   [0mINSERT INTO `groups` (`updated_at`, `created_at`) VALUES('2009-03-23 17:06:17', '2009-03-23 17:06:17')[0m
+  [4;36;1mEvent Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `events`[0m
+  [4;35;1mEvent Create (0.000000)[0m   [0mINSERT INTO `events` (`updated_at`, `created_at`) VALUES('2009-03-23 17:06:17', '2009-03-23 17:06:17')[0m
+  [4;36;1mInvitation Columns (0.015000)[0m   [0;1mSHOW FIELDS FROM `invitations`[0m
+  [4;35;1mInvitation Create (0.000000)[0m   [0mINSERT INTO `invitations` (`participant_id`, `updated_at`, `host_id`, `note`, `user_id`, `participant_type`, `created_at`) VALUES(4, '2009-03-23 17:06:17', 8, NULL, 7, 'Project', '2009-03-23 17:06:17')[0m
+  [4;36;1mInvitation Create (0.000000)[0m   [0;1mINSERT INTO `invitations` (`participant_id`, `updated_at`, `host_id`, `note`, `user_id`, `participant_type`, `created_at`) VALUES(3, '2009-03-23 17:06:17', 8, NULL, 7, 'Group', '2009-03-23 17:06:17')[0m
+  [4;35;1mInvitation Create (0.000000)[0m   [0mINSERT INTO `invitations` (`participant_id`, `updated_at`, `host_id`, `note`, `user_id`, `participant_type`, `created_at`) VALUES(3, '2009-03-23 17:06:17', 8, NULL, 7, 'Event', '2009-03-23 17:06:17')[0m
+  [4;36;1mInvitation Load (0.000000)[0m   [0;1mSELECT * FROM `invitations` WHERE (`invitations`.user_id = 7) [0m
+  [4;35;1mInvitation Load (0.000000)[0m   [0mSELECT * FROM `invitations` WHERE (`invitations`.host_id = 8) [0m
+  [4;36;1mSQL (0.063000)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mUser Create (0.000000)[0m   [0;1mINSERT INTO `users` (`updated_at`, `created_at`) VALUES('2009-03-23 17:06:17', '2009-03-23 17:06:17')[0m
+  [4;35;1mUser Create (0.000000)[0m   [0mINSERT INTO `users` (`updated_at`, `created_at`) VALUES('2009-03-23 17:06:17', '2009-03-23 17:06:17')[0m
+  [4;36;1mProject Create (0.000000)[0m   [0;1mINSERT INTO `projects` (`updated_at`, `created_at`) VALUES('2009-03-23 17:06:17', '2009-03-23 17:06:17')[0m
+  [4;35;1mInvitation Create (0.000000)[0m   [0mINSERT INTO `invitations` (`participant_id`, `updated_at`, `host_id`, `note`, `user_id`, `participant_type`, `created_at`) VALUES(5, '2009-03-23 17:06:17', 10, 'This is a project invitation', 9, 'Project', '2009-03-23 17:06:17')[0m
+  [4;36;1mInvitation Load (0.000000)[0m   [0;1mSELECT * FROM `invitations` WHERE (`invitations`.participant_id = 5 AND `invitations`.participant_type = 'Project') [0m
+  [4;35;1mSQL (0.062000)[0m   [0mROLLBACK[0m

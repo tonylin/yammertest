@@ -1,0 +1,44 @@
+<%#
+# To change this template, choose Tools | Templates
+# and open the template in the editor.
+%>
+<table border="0">
+<%form_tag('/invite/create', :action=>:post) do %>
+<tr><td><%=label :invitation, :host, "Host:"%></td><td><%=select :invitation, :host, User.find(:all).collect {|u| ['user%d'%u.id, u.id]}%></td></tr>
+<tr><td><%=label :invitation, :user, "User:"%></td><td><%=select :invitation, :user, User.find(:all).collect {|u| ['user%d'%u.id, u.id]}%></td></tr>
+<tr><td><%=label :invitation, :type, "Type:"%></td><td><%=select :invitation, :type, @invitation_types.sort, {}, {:onchange=>'javascript:changeType(this);'}%></td></tr>
+<tr><td>&nbsp;</td><td id="types"><%=select :invitation, :type_id, Event.find(:all).collect {|e| ['Event%d'%e.id, e.id]}%></td></tr>
+<tr><td valign="top"><%=label :invitation, :note, "Note:"%></td><td><%=text_area :invitation, :note, :cols => 25, :rows => 5%></td></tr>
+<tr><td colspan="2" align="center"><input type="submit" onclick="javascript:return checkForm();"></td></tr>
+<%end %>
+</table><hr/>
+<% Invitation.find(:all, :order=>"id desc").each { |i|  %>
+<%="User%d has invited User%d to %s%d -- %s<br/>"%[i.host_id, i.user_id, i.participant_type, i.participant_id, i.note]%>
+<%} %>
+<script type="text/javascript">
+<!--
+var invitation_info = <%=@invitation_info.to_json%>;
+function changeType(listbox) {
+  var sel = document.getElementById('invitation_type_id');
+  var len = sel.options.length;
+  for(var i=0;i<len;i++) {
+    sel.remove(0);
+  }
+  var types = invitation_info[listbox.options[listbox.selectedIndex].value];
+  for(var i=0;i<types.length;i++) {
+    var opt = document.createElement("option");
+    opt.text = types[i][0];
+    opt.value = types[i][1];
+    sel.add(opt);
+  }
+}
+
+function checkForm() {
+  if(document.getElementById('invitation_host').selectedIndex==document.getElementById('invitation_user').selectedIndex) {
+    alert('host and user cannot be the same!');
+    return false;
+  }
+  return true;
+}
+-->
+</script>

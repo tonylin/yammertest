@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
+        <file>file:/C:/RoRProjects/YammerTest/app/controllers/invite_controller.rb</file>
+        <file>file:/C:/RoRProjects/YammerTest/app/helpers/invite_helper.rb</file>
+        <file>file:/C:/RoRProjects/YammerTest/app/models/event.rb</file>
+        <file>file:/C:/RoRProjects/YammerTest/app/models/group.rb</file>
+        <file>file:/C:/RoRProjects/YammerTest/app/models/invitation.rb</file>
+        <file>file:/C:/RoRProjects/YammerTest/app/models/project.rb</file>
+        <file>file:/C:/RoRProjects/YammerTest/app/models/user.rb</file>
+        <file>file:/C:/RoRProjects/YammerTest/app/views/invite/index.html.erb</file>
+        <file>file:/C:/RoRProjects/YammerTest/test/functional/invite_controller_test.rb</file>
+        <file>file:/C:/RoRProjects/YammerTest/test/unit/invitation_test.rb</file>
+    </open-files>
+</project-private>
