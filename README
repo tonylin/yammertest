@@ -1,0 +1,11 @@
+== Welcome to YammerTest
+This is a RoR project for the Ruby programmer test for Yammer.
+
+
+== Getting Started
+
+1. Create a new database "YammerTest_development" in MySQL. If you want to use other databases, please modify database.xml
+2. Run rails rake to migrate the database
+3. Run rails rake to load the fixtures into database
+4. Run the rails engine and open the url "http://localhost:3000/invite"
+
